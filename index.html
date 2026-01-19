@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Tập_Buổi 1 - Dương Trần Bão</title>
+    <style>
+        /* 1. Cấu hình cơ bản (Reset & Base) */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* Màu nền cũ của bạn */
+            color: #333;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        /* 2. Khung chính giữa màn hình */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+            padding: 40px;
+            overflow: hidden; /* Tránh vỡ layout */
+        }
+
+        /* 3. Phần thông tin sinh viên */
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px dashed #e0e0e0;
+        }
+
+        .header h1 {
+            color: #667eea;
+            font-size: 2em;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .header p {
+            color: #666;
+            font-size: 1.1em;
+            font-weight: 500;
+        }
+
+        /* 4. Style cho kết quả JS đổ ra (Tương thích với main.js) */
+        /* Đây là CSS thay thế cho cái theme hacker màu đen lúc nãy */
+        #app {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .result-box {
+            background: #f8f9fa;
+            border-left: 5px solid #667eea; /* Viền trái màu xanh tím */
+            padding: 15px 20px;
+            border-radius: 4px;
+            transition: all 0.2s ease;
+        }
+
+        .result-box:hover {
+            background: #fff;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transform: translateX(5px);
+        }
+
+        .label {
+            color: #764ba2; /* Màu tím đậm cho tiêu đề câu hỏi */
+            font-weight: bold;
+            font-size: 1.05em;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        pre {
+            font-family: 'Consolas', monospace;
+            white-space: pre-wrap; /* Tự xuống dòng nếu quá dài */
+            color: #2d3748;
+            background: #e2e8f0;
+            padding: 10px;
+            border-radius: 4px;
+            font-size: 0.95em;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>BÀI TẬP BUỔI 1</h1>
+        </div>
+        <h1>Dương Trần Bão</h1>
+            <p>MSSV: 2280600244</p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
